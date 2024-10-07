@@ -1,0 +1,66 @@
+.border{
+    /* the middile border between the left and the right
+     */
+     border: 2px solid red;
+     margin: 3px;
+}
+/* makes some small utility content */
+.flex{
+    display: flex;
+}
+.justyfy_center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.item_center{
+    align-items: center;
+}
+.bg_black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-greay{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m1{
+    /* this is for the margine */
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* Custom scroll bar for Webkit browsers (Chrome, Safari, Edge) */
+/* Custom vertical scroll bar for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px;  /* Adjusts the width of the vertical scroll bar */
+    height: 0px;  /* Hides the horizontal scroll bar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2e2e2e;  /* Dark background for the vertical scroll bar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;  /* Darker color for the vertical scroll bar thumb */
+    border-radius: 6px;
+    border: 3px solid #2e2e2e;  /* Matching border for a smoother appearance */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;  /* Slightly lighter color when hovered */
+}
+
+/* Custom vertical scroll bar for Firefox */
+body {
+    scrollbar-color: #555 #2e2e2e;  /* Thumb color and track color for vertical scroll bar */
+    scrollbar-width: thin;  /* Makes the vertical scroll bar thinner */
+}
+/* fixed calss */

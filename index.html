@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>free spotyfy</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+   <!-- the maincontainer -->
+   <div class="maincontainer flex bg_black">
+      <div class="left  bg_black">
+         <!-- make two box home and library -->
+         <div class="home bg-greay rounded m1 p-1">
+            <!-- the logo is goes to here -->
+
+   <div class="logoclose space-between flex  item-center" style="gap: 20px;">
+               <div class="logo">
+                  <img class="invert" src="svg/logo.svg" alt="">
+               </div>
+               <!-- the button to close the hamburger menu -->
+                <div class="close">
+                  <img src="svg/close.svg" height="50px" alt="">
+                </div>
+            </div>
+            <ul>
+               <li><img class="invert" src="svg/home.svg" alt="home">Home</li>
+               <div class="songseachicon" style="display: flex; align-items: center; gap: 20px;">
+                  <li><img class="invert search" src="svg/search.svg" style="cursor: pointer;" alt="search"></li>
+               <!-- create the input box when ssomeone click the search btn -->
+                <li><input type="text" placeholder="enter song name..." class="sechsong"></li>
+
+               </div>
+            </ul>
+         </div>
+         <!-- the library box from thr lrft side -->
+         <div class="library  bg-greay rounded m1 p-1   ">
+            <div class="heading">
+
+
+               <img class="invert" src="svg/playlist.svg" alt="">
+               <h2>your library</h2>
+
+
+
+            </div>
+            <div class="song_playlist">
+               <ul>
+                  <!-- <li><img src="svg/music.svg" alt="">
+                     <div class="info">
+                        <div class="songname">song name</div>
+                        <div class="songartist">song artist</div>
+                     </div>
+                     <div class="playnow">
+                        <h3>playnow</h3>
+                        <img src="svg/play.svg" alt="" class="playnow">
+                     </div>
+                   
+                  </li> -->
+
+               </ul>
+            </div>
+            <!-- the footer sectetion of libary -->
+            <div class="footer">
+               <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+               <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+               <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+               </div>
+               <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+               <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+               <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+            </div>
+
+         </div>
+
+      </div>
+      <!-- this is the right side box -->
+      <div class="right  bg-greay m1 p-1 ">
+         <div class="header flex space-between item_center">
+            <!-- this section divided into two parts -->
+            <div class="nav flex" style="gap: 10px;  align-items: center; justify-content: flex-start;">
+               <!-- the hamburger menu is olaced here -->
+               <div class="hamburger">
+                  <img src="svg/menu.svg" alt="">
+               </div>
+               <img src="svg/left.svg" alt="" class="left_svg invert" style="width: 24px;">
+               <img src="svg/right.svg" alt="" class="right_svg invert" style="width: 24px;">
+            </div>
+            <div class="buttons">
+               <button class="sign">Sing up</button>
+               <button class="login">log in</button>
+
+            </div>
+
+
+         </div>
+         <!-- the playlist container -->
+         <div class="spotyfy_playlist">
+            <h1>Spotyfy Playlist</h1>
+            <div class="card_container">
+               <div class="card ">
+                  <div class="play">
+                     <img class="play" src="svg/play.svg" alt="">
+                  </div>
+                  <img src="images/1.jpg" alt="">
+                  <h2>happy hits!</h2>
+                  <p>Hits to boost your mood and fill you with happyness</p>
+               </div>
+            </div>
+            <!-- the play and pause where we actually start the music -->
+            <div class="playbar">
+               <!-- seek bar  -->
+               <div class="seekbar">
+                  <div class="circle">
+
+                  </div>
+               </div>
+               <div class="songinfo">
+
+
+               </div>
+               <div class="songbtn">
+
+                  <img src="svg/previous.svg" alt="" class="previous">
+                  <img src="playsong.svg" alt="" class="playsong">
+                  <img src="svg/next.svg" alt="" class="next">
+               </div>
+               <div class="songtimer">
+                  <div class="currenttime"></div>
+                  <div class="songtime"></div>
+
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>
